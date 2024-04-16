@@ -1,0 +1,33 @@
+深度学习：
+  转换编程的思维(和传统的机器学习的编程方式不太一样)
+  
+深度学习的基础课程内容：8天左右
+  TensorFlow：1~1.5天
+  传统神经网络(BP神经网络)、RBF神经网络: 0.5天~1天
+  CNN：2天
+  RNN：2天
+  GAN：2天
+
+http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.58829&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false
+
+TensorFlow
+  CPU版本：只支持程序在CPU上计算/运算，默认运行就是CPU上运行
+    卸载：
+      pip uninstall tensorflow
+      pip uninstall tensorflow-tensorboard
+    安装：
+      pip install tensorflow==1.4.0
+  GPU版本：支持GPU、CPU上的计算/运算，默认运行在GPU上，但是可以明确指定在CPU上运行（因为GPU的运行速度比CPU要快，所以会仅可能的将程序运行在GPU上）
+    卸载：
+      pip uninstall tensorflow-gpu tensorflow-tensorboard
+    安装：
+      pip install tensorflow-gpu==1.4.0
+    备注：必须安装CUDA和cuDNN; 必须要求机器有NVIDIA显卡
+
+  
+  
+  
+  
+  
+  
+  
